@@ -1,0 +1,46 @@
+/* 
+    Document   : Regular CSS
+    Created on : Aug 11, 2009, 3:52:50 PM
+    Author     : Richard
+    Description:
+        Main CSS Stylesheet
+*/
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+#page {
+	width: 500px;
+}
+div {
+	list-style-type: none;
+	text-align: center;
+	margin: 10px auto 10px auto;
+	font-size: small;
+}
+legend {
+	font-size: large;
+}
+.left, .right {
+	width: 24px;
+	float: left;
+	height: 30px;
+}
+.center {
+	width: 400px;
+	float: left;
+	height: 30px;
+}
+.halloween {
+	color: orange;
+}
+.halloween .left {
+	background: url('ghost.png') no-repeat;
+}
+.halloween .right {
+	background: url('pumpkin.png') no-repeat;
+}
+.halloween .center {
+	color: #000;
+}
+

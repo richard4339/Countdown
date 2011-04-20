@@ -1,0 +1,47 @@
+/* 
+    Document   : iPhone
+    Created on : Aug 11, 2009, 4:02:19 PM
+    Author     : Richard
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+body {
+    font-family: Helvetica, sans-serif;
+    width: 320px;
+    margin: 0;
+    padding: 0;
+}
+#page {
+    width: 300px;
+    padding: 10px;
+}
+.blue {
+    color: #0000FF;
+}
+.orange {
+    color: #FF6600;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+ul li {
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+    margin: 10px auto 10px auto;
+    font-size: small;
+}
+h1 {
+    padding: 0;
+    margin: 0;
+}
+h6 {
+    display:none;
+}
