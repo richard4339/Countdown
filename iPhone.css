@@ -21,6 +21,9 @@ body {
     width: 300px;
     padding: 10px;
 }
+.center {
+	width: 220px;
+}
 .blue {
     color: #0000FF;
 }
